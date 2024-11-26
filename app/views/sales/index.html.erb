@@ -1,0 +1,15 @@
+<style>
+
+</style>
+
+<div id="wrapper" data-controller="report" data-report-url-value="<%= sales_report_url %>">
+
+    <h1>Create A Sales Report</h1>
+
+    <%= link_to "", data: { action: "report#click" } do %>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        GENERATE SALES REPORT
+    </button>
+    <% end %>
+
+</div>
